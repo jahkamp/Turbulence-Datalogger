@@ -10,11 +10,12 @@
  Created October 19, 2016
  by Jared Kamp for Montana Space Grant Consortium
 
- Last edited Februrary 8, 2017 by Jared Kamp
- Version 2.0.1
+ Last edited Februrary 21, 2017 by Jared Kamp
+ Version 2.0.2
 
  + 2.0.0 - Significantly increased the rate at which IMU data is gathered and logged. Version 1 was taking readings at a rate of 1/5 sec, while version 2 reads once every 52.6 msec.
  + 2.0.1 - Combining the code from 3 files (Iridium, Still Image, & Video) into 1 program. This will help maintain the same code across all IMU dataloggers. The only difference is file naming for the data log, so that is now read in from a setup file.
+ + 2.0.2 - Changed the file extension for IMU data from txt to csv for ease of use. NEW FORMAT (As saved in IMUSETUP.TXT): "IMUXXX.CSV"
 */
 
 // Include the necessary libraries for input/output, SD cards, hardware I2C, and the IMU.
